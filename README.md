@@ -1,11 +1,18 @@
-# Lens Example Extension
+# Lens "Hello World" Extension
 
-*TODO*: add more info
+Simple Lens extension that adds "hello-world" page to a cluster menu.
+
+## Install
+
+```
+mkdir -p ~/.k8slens/extensions
+git clone https://github.com/lensapp/hello-world-extension.git ~/.k8slens/extensions/hello-world
+```
 
 ## Build
 
 `npm run build`
 
-## Dev
+## Test
 
-`npm run dev`
+Open Lens application and navigate to a cluster. You should see "Hello World" in a menu.
